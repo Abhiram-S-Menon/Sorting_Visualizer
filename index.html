@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Sorting Visualiser</title>
+
+</head>
+<body>
+    <h1>BUBBLE SORT VISUALISER</h1>
+    <div class="container">
+    <label for="inputn" id="inputn1">How many numbers to sort?</label>
+    <input type="text" id="inputn" name="inputn"><br>
+    <label for="numarray" id="numarray1">Input the numbers</label>
+    <input type="text" id="numarray" name="numarray" disabled placeholder="1,2,3....">
+    <br>
+      <!-- <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Default radio
+        </label>
+      </div> -->
+    <button id="sortbutton" onclick="readtoArray()" type="button" class="btn btn-outline-primary">Sort</button>
+
+    </div>
+
+    <div id="circles">
+   
+
+    </div>
+    
+</body>
+<script src="scripts.js"></script>
+</html>

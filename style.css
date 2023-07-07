@@ -1,0 +1,67 @@
+.numincircle
+{
+    height: 50px;
+    width: 50px;
+    background-color:blueviolet;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+}
+#circles
+{
+    
+    background-color: rgb(242, 187, 206);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@keyframes color
+{
+    from {background-color: blueviolet;}
+    to {background-color: rgb(4, 255, 4);}
+}
+@keyframes color1
+{
+    0% {
+        background-color: blueviolet; 
+        /* starting background color */
+      }
+      50% {
+        background-color: red; /* ending background color */
+      }
+      100%
+      {
+        background-color: red;
+      }
+}
+h1
+{
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.container
+{
+    padding-left: 420px;
+}
+#inputn
+{
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+#numarray
+{
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+#sortbutton
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
